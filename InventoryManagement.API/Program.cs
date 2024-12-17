@@ -1,4 +1,7 @@
 
+using FluentValidation;
+using FluentValidation.AspNetCore;
+using InventoryManagement.API.Validators;
 using InventoryManagement.Application.Interfaces;
 using InventoryManagement.Application.Services;
 using InventoryManagement.Infrastructure.Data;
@@ -21,7 +24,13 @@ builder.Services.AddDbContext<InventoryDbContext>(options=>{
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
 builder.Services.AddScoped<IProductService, ProductService>();
 
+//Register fluent validators
+builder.Services.AddValidatorsFromAssemblyContaining<ProductValidator>(); 
+
 builder.Services.AddControllers();
+
+//Register explore api endpoints
+
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
