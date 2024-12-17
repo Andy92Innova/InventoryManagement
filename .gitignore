@@ -5,9 +5,16 @@
 *.userosscache
 *.sln.docstates
 
-# Build results
+# Ignorar carpetas generadas por el compilador
 bin/
 obj/
+Debug/
+DebugPublic/
+Release/
+x64/
+x86/
+
+# Build results
 *.dll
 *.exe
 *.pdb
