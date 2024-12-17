@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Proyectos\\Personal\\InventoryManagement\\InventoryManagement.API\\InventoryManagement.API.csproj": {}
+    "E:\\Proyectos\\Personal\\InventoryManagement\\InventoryManagement.Api\\InventoryManagement.API.csproj": {}
   },
   "projects": {
-    "E:\\Proyectos\\Personal\\InventoryManagement\\InventoryManagement.API\\InventoryManagement.API.csproj": {
+    "E:\\Proyectos\\Personal\\InventoryManagement\\InventoryManagement.Api\\InventoryManagement.API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Proyectos\\Personal\\InventoryManagement\\InventoryManagement.API\\InventoryManagement.API.csproj",
+        "projectUniqueName": "E:\\Proyectos\\Personal\\InventoryManagement\\InventoryManagement.Api\\InventoryManagement.API.csproj",
         "projectName": "InventoryManagement.API",
-        "projectPath": "E:\\Proyectos\\Personal\\InventoryManagement\\InventoryManagement.API\\InventoryManagement.API.csproj",
+        "projectPath": "E:\\Proyectos\\Personal\\InventoryManagement\\InventoryManagement.Api\\InventoryManagement.API.csproj",
         "packagesPath": "C:\\Users\\ANDY\\.nuget\\packages\\",
-        "outputPath": "E:\\Proyectos\\Personal\\InventoryManagement\\InventoryManagement.API\\obj\\",
+        "outputPath": "E:\\Proyectos\\Personal\\InventoryManagement\\InventoryManagement.Api\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -57,6 +57,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[8.0.11, )"
