@@ -8,6 +8,7 @@ E:\Proyectos\Personal\InventoryManagement\InventoryManagement.Application\obj\De
 E:\Proyectos\Personal\InventoryManagement\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.AssemblyInfoInputs.cache
 E:\Proyectos\Personal\InventoryManagement\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.AssemblyInfo.cs
 E:\Proyectos\Personal\InventoryManagement\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.csproj.CoreCompileInputs.cache
+E:\Proyectos\Personal\InventoryManagement\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.sourcelink.json
 E:\Proyectos\Personal\InventoryManagement\InventoryManagement.Application\obj\Debug\net8.0\Inventor.0D5EB3FB.Up2Date
 E:\Proyectos\Personal\InventoryManagement\InventoryManagement.Application\obj\Debug\net8.0\InventoryManagement.Application.dll
 E:\Proyectos\Personal\InventoryManagement\InventoryManagement.Application\obj\Debug\net8.0\refint\InventoryManagement.Application.dll
