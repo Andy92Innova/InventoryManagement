@@ -1,7 +1,7 @@
 using FluentValidation;
 using InventoryManagement.Domain.Models;
 
-namespace InventoryManagement.API.Validators;
+namespace InventoryManagement.Domain.Validators;
 
 public class ProductValidator : AbstractValidator<Product>
 {
