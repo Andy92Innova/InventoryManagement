@@ -14,6 +14,31 @@ Release/
 x64/
 x86/
 
+# Ignorar carptepas de proyecto internos
+InventoryManagement.API/bin/
+InventoryManagement.API/obj/
+InventoryManagement.API/Debug/
+
+InventoryManagement.Application/bin/
+InventoryManagement.Application/obj/
+InventoryManagement.Application/Debug/
+
+InventoryManagement.Domain/bin/
+InventoryManagement.Domain/obj/
+InventoryManagement.Domain/Debug/
+
+InventoryManagement.Infrastructure/bin/
+InventoryManagement.Infrastructure/obj/
+InventoryManagement.Infrastructure/Debug/
+
+InventoryManagement.Tests/bin/
+InventoryManagement.Tests/obj/
+InventoryManagement.Tests/Debug/
+
+InventoryManagement.TestXUnit/bin/
+InventoryManagement.TestXUnit/obj/
+InventoryManagement.TestXUnit/Debug/
+
 # Build results
 *.dll
 *.exe
