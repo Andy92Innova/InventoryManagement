@@ -1,7 +1,6 @@
 
 using FluentValidation;
-using FluentValidation.AspNetCore;
-using InventoryManagement.API.Validators;
+using InventoryManagement.Domain.Validators;
 using InventoryManagement.Application.Interfaces;
 using InventoryManagement.Application.Services;
 using InventoryManagement.Infrastructure.Data;
@@ -22,7 +21,10 @@ builder.Services.AddDbContext<InventoryDbContext>(options=>{
 
 //Register dependencies
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped<ITransactionRepository, TransactionRepository>();
+
 builder.Services.AddScoped<IProductService, ProductService>();
+builder.Services.AddScoped<ITransactionService, TransactionService>();
 
 //Register fluent validators
 builder.Services.AddValidatorsFromAssemblyContaining<ProductValidator>(); 
